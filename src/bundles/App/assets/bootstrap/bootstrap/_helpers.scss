@@ -1,0 +1,11 @@
+.clean-link {
+  color: inherit;
+
+  &:hover,
+  &:active,
+  &:visited,
+  &:focus {
+    text-decoration: none;
+    color: inherit;
+  }
+}

@@ -1,0 +1,24 @@
+.routepicker {
+	@include clearfix;
+
+	&__row {
+		float: left;
+	}
+	&__from {
+		width: auto;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	&__exchange {
+		border-left: none;
+		border-right: none;
+		border-radius: 0;
+		border-color: $input-border-color;
+		background-color: $input-bg;
+	}
+	&__to {
+		width: auto;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+}
